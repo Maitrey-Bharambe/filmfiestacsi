@@ -8,9 +8,9 @@ const TrailersSection = () => {
   const [currentTrailer, setCurrentTrailer] = useState(dummyTrailers[0]);
 
   return (
-    <div className="px-6 md:px-16 lg:px-24 xl:px-44 py-20 overflow-hidden">
+    <div className="w-full min-h-screen px-6 md:px-16 lg:px-24 xl:px-44 py-20 overflow-hidden bg-[#09090b]">
       <p className="text-gray-300 font-medium text-lg max-w-[960] mx-auto">
-        Trailers
+        Trailer
       </p>
 
       <div className="relative mt-6">
