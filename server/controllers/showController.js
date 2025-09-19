@@ -7,7 +7,7 @@ import { inngest } from "../inngest/index.js";
 export const getNowPlayingMovies = async (req, res) => {
   try {
     const { data } = await axios.get(
-      "https://api.themoviedb.org/3/discover/movie?release_date.gte=2019-10-18&release_date.lte=2019-10-20",
+      "https://api.themoviedb.org/3/movie/515001",
       {
         headers: { Authorization: `Bearer ${process.env.TMDB_API_KEY}` },
       }
